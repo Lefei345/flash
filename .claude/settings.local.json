@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; cd \"d:\\\\桌面\\\\flash\\\\app\"; npx expo start --tunnel 2>&1)"
+    ]
+  }
+}
