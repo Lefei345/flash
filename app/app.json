@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Flash",
+    "slug": "flash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#E3F2FD",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E3F2FD"
+    },
+    "ios": {
+      "bundleIdentifier": "com.flash.thoughts",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSMicrophoneUsageDescription": "Flash 需要使用麦克风来记录你的念头",
+        "NSSpeechRecognitionUsageDescription": "Flash 需要语音识别来将你的话转成文字"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-speech-recognition",
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9be8897c-c621-4258-87f8-d2ccccb0ee20"
+      }
+    },
+    "owner": "17715468628",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9be8897c-c621-4258-87f8-d2ccccb0ee20"
+    }
+  }
+}
